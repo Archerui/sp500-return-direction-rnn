@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+stock/
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.parquet
+data/processed/*.parquet
+
+# Keep empty data folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model checkpoints and saved models
+outputs/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+
+# Large prediction outputs
+outputs/predictions/
+
+# Optional temporary files
+tmp/
+temp/

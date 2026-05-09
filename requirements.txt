@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+torch
+tqdm
+yfinance
+pyyaml
+joblib
+lxml
+html5lib
+beautifulsoup4
+tabulate
+jupyter
+ipykernel
